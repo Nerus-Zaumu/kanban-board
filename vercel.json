@@ -1,6 +1,15 @@
 {
     "version": 2,
     "name": "kanyim",
+    "env": {
+        "DATABASE_USERNAME": "freedb_kanyim-admin",
+        "DATABASE_NAME": "freedb_kanyim",
+        "DATABASE_HOST": "sql.freedb.tech",
+        "DATABASE_PASSWORD": "tuskVD@cake%5u?",
+        "DATABASE_PORT": 3306,
+        "DATABASE_DIALECT": "mysql",
+        "JWT_SECRET_KEY": "42eac0d1d2760d478b996d8cdc7fbef31b59791a6ec7b74c0774fe8ed76b635d"
+    },
     "builds": [
       { "src": "src/main.ts", "use": "@vercel/node" }
     ],
